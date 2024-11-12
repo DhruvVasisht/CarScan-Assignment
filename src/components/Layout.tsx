@@ -77,7 +77,7 @@ export default function Layout({ children }: LayoutProps) {
   };
 
   const menuItems = [
-    { text: "Add Task", icon: <AddIcon />, path: "/add-task" },
+    { text: "Add Task", icon: <AddIcon />, path: "/" },
     { text: "View Tasks", icon: <ViewListIcon />, path: "/view-tasks" },
   ];
 
