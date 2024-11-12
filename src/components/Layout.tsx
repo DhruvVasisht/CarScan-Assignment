@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { styled } from "@mui/material/styles";
 import {
   Box,
@@ -92,6 +92,7 @@ export default function Layout({ children }: LayoutProps) {
     ];
 
     pathSegments.forEach((segment, index) => {
+      console.log(segment)
       const path = `/${pathSegments.slice(0, index + 1).join("/")}`;
       const menuItem = menuItems.find((item) => item.path === path);
       if (menuItem) {
