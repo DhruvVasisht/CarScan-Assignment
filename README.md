@@ -26,15 +26,12 @@ An interactive web application built with React, TypeScript, and Material UI. Th
 
 Install dependencies:
 
-bash
-Copy code
 npm install
 # or
 yarn install
-Start the development server:
 
-bash
-Copy code
+
+Start the development server:
 npm start
 # or
 yarn start
