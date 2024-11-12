@@ -25,8 +25,7 @@ function App() {
       <BrowserRouter>
         <Layout>
           <Routes>
-            <Route path="/" element={<Navigate to="/add-task" replace />} />
-            <Route path="/add-task" element={<AddTask />} />
+            <Route path="/" element={<AddTask />} />
             <Route path="/view-tasks" element={<ViewTask />} />
           </Routes>
         </Layout>
